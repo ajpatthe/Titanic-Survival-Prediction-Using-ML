@@ -18,12 +18,14 @@ To gain insights into the dataset, I conduct Exploratory Data Analysis (EDA) usi
 
 Visualizing distributions of key features such as age, number of siblings/spouses (SibSp), number of parents/children (Parch), and fare to identify trends and outliers.
 Exploring relationships between different variables to detect correlations that might impact survival predictions.
+
 5. Data Cleaning and Feature Engineering
 Data cleaning is essential to improve model performance. In this phase, I:
 
 Handle missing values through strategic imputation techniques.
 Remove irrelevant columns such as "PassengerId," "Cabin," "Name," and "Ticket" that do not contribute significantly to prediction.
 Engineer new features or transform existing ones to enrich the dataset and improve model accuracy.
+
 6. Model Training and Evaluation
 I test multiple machine learning models to determine the most effective approach for predicting survival. The models include:
 
